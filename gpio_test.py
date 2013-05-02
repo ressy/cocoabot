@@ -25,7 +25,7 @@ def quit():
 	for pin in PINS:
 		GPIO.output(pin, GPIO.LOW)
 
-# Set all four pins high, then low.
+# Set all pins high, then low.
 # Repeat until interrupted.
 def main():
 	setup()
